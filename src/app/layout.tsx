@@ -1,0 +1,34 @@
+import type { Metadata } from "next";
+import { Fraunces, Karla } from "next/font/google";
+import { ThemeSwitcher } from "@/components/ThemeSwitcher";
+import "./globals.css";
+
+const fraunces = Fraunces({
+  variable: "--font-serif",
+  subsets: ["latin"],
+  axes: ["opsz", "SOFT", "WONK"],
+  style: ["normal", "italic"],
+  weight: "variable",
+});
+
+const karla = Karla({
+  variable: "--font-sans",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
+
+export const metadata: Metadata = {
+  title: "The Lodge",
+  description: "Home base for every app in the cabin.",
+};
+
+export default function RootLayout({ children }: LayoutProps<"/">) {
+  return (
+    <html lang="en" className={`${fraunces.variable} ${karla.variable} h-full antialiased`}>
+      <body className="min-h-full bg-parchment text-ink">
+        {children}
+        <ThemeSwitcher />
+      </body>
+    </html>
+  );
+}

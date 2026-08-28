@@ -1,0 +1,67 @@
+{
+  "apps": [
+    {
+      "id": "reading-cabin",
+      "name": "Reading Cabin",
+      "tagline": "A quiet place to work through your textbooks.",
+      "path": "/path/to/reading-cabin",
+      "command": "npm run dev",
+      "port": 3000,
+      "createdAt": "2026-08-12T00:00:00.000Z"
+    },
+    {
+      "id": "almanac",
+      "name": "Almanac",
+      "tagline": "Where the cabin keeps track of its days.",
+      "path": "/path/to/almanac",
+      "command": "npm run dev",
+      "port": 3001,
+      "createdAt": "2026-08-13T00:00:00.000Z"
+    },
+    {
+      "id": "woodshed",
+      "name": "Woodshed",
+      "tagline": "Where the cabin keeps its tools tidy.",
+      "path": "/path/to/woodshed",
+      "command": "npm run dev",
+      "port": 3002,
+      "createdAt": "2026-08-13T00:00:00.000Z"
+    },
+    {
+      "id": "mailroom",
+      "name": "Mailroom",
+      "tagline": "Where the cabin's mail gets sorted.",
+      "path": "/path/to/mailroom",
+      "command": "npm run dev",
+      "port": 3003,
+      "createdAt": "2026-08-13T00:00:00.000Z"
+    },
+    {
+      "id": "ledger",
+      "name": "Ledger",
+      "tagline": "Where the cabin keeps its books.",
+      "path": "/path/to/ledger",
+      "command": "npm run dev",
+      "port": 3004,
+      "createdAt": "2026-08-13T00:00:00.000Z"
+    },
+    {
+      "id": "the-forge",
+      "name": "The Forge",
+      "tagline": "Where the cabin builds under pressure.",
+      "path": "/path/to/the-forge",
+      "command": "npm run dev",
+      "port": 3005,
+      "createdAt": "2026-08-17T00:00:00.000Z"
+    },
+    {
+      "id": "the-foundry",
+      "name": "The Foundry",
+      "tagline": "Where the cabin casts its games.",
+      "path": "/path/to/the-foundry",
+      "command": "npm run dev",
+      "port": 3006,
+      "createdAt": "2026-08-26T00:00:00.000Z"
+    }
+  ]
+}
